@@ -1,0 +1,15 @@
+{
+  "name": "bs-mineral-ui",
+  "bsc-flags": ["-bs-super-errors"],
+  "reason": {
+    "react-jsx": 2
+  },
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "refmt": 3
+}

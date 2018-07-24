@@ -1,0 +1,8 @@
+.DS_Store
+.merlin
+.bsb.lock
+.vscode
+yarn-error.log
+/lib/bs/
+/lib/ocaml/
+/node_modules/

@@ -1,0 +1,40 @@
+{
+  "name": "bs-mineral-ui",
+  "version": "0.0.0-semantically-released",
+  "main": "lib/js/src/MineralUI.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BuckleScript",
+    "react",
+    "react-component",
+    "component design design",
+    "mineral-ui"
+  ],
+  "author": "Matt Parrish <matt.r.parrish@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.0",
+    "emotion": "^9.2.6",
+    "emotion-theming": "^9.2.6",
+    "kcd-scripts": "^0.39.2",
+    "mineral-ui": "^0.37.0",
+    "react-emotion": "^9.2.6",
+    "reason-react": "^0.4.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10"
+  },
+  "peerDependencies": {
+    "bs-platform": "^4.0.0",
+    "mineral-ui": "^0.37.0",
+    "reason-react": ">=0.4.0"
+  }
+}
